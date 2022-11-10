@@ -9,11 +9,11 @@ import Header from "./components/layouts/Header";
 function App() {
   return (
     <>
-      <div className="relative bg-header  w-full sm:w-full md:h-[700px] h-[800px]">
+      <div className="relative bg-header  w-full sm:w-full h-[800px] md:h-[700px]">
         <Header />
         <section className="w-full gap-4 px-4 md:mt-20">
           <div className="flex flex-col items-center justify-center gap-y-8 md:flex-row">
-            <div className="flex flex-col w-full ml-[250px] md:pl-20 md:mb-20 ">
+            <div className="flex flex-col w-full md:pl-20 md:mb-20 ">
               <h1 className="text-5xl not-italic font-extrabold font">
                 One more friend
               </h1>
@@ -49,18 +49,18 @@ function App() {
             </div>
 
             <div className="w-full h-full content-right group">
-              <div className="absolute bottom-0  right-[175px]">
+              <div className="absolute bottom-0 right-[135px]">
                 <img src={bgDark} alt="" className=" md:h-[370px]" />
               </div>
-              <div className="absolute bottom-0 z-10 right-10 ">
+              <div className="absolute bottom-0 right-0 z-10">
                 <img
                   src={bgYellow}
                   alt=""
-                  className=" md:w-[750px] md:h-[483px] "
+                  className=" md:w-[750px] md:h-[483px]"
                 />
               </div>
-              <div className="absolute bottom-0 z-10 right-10 ">
-                <img src={hero} alt="" className="md:w-[800px] md:h-[610px] " />
+              <div className="absolute bottom-0 right-0 z-10">
+                <img src={hero} alt="" className="md:w-[800px] md:h-[610px]" />
               </div>
             </div>
           </div>

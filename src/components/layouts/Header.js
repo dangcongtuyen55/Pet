@@ -72,7 +72,7 @@ const Header = () => {
             className={
               !open
                 ? "items-center  hidden gap-10 pr-10 font-semibold cursor-pointer md:flex mt-10"
-                : "bg-white absolute top-[100%] left-0 mt-10 flex flex-col items-center w-full h-screen gap-12 pt-10 "
+                : "bg-white absolute top-12 left-0 mt-10 flex flex-col items-center w-full h-full gap-12 pt-10 z-10 "
             }
           >
             {menuLinks.map((item) => (

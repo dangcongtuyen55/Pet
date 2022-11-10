@@ -52,14 +52,14 @@ function App() {
               <div className="absolute bottom-0 right-[135px]">
                 <img src={bgDark} alt="" className=" md:h-[370px]" />
               </div>
-              <div className="absolute bottom-0 right-0 z-10">
+              <div className="absolute bottom-0 right-0">
                 <img
                   src={bgYellow}
                   alt=""
                   className=" md:w-[750px] md:h-[483px]"
                 />
               </div>
-              <div className="absolute bottom-0 right-0 z-10">
+              <div className="absolute bottom-0 right-0 ">
                 <img src={hero} alt="" className="md:w-[800px] md:h-[610px]" />
               </div>
             </div>

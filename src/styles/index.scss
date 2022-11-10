@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "reset";
+@layer base {
+  body {
+    line-height: 1.5;
+    // -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #232323;
+  }
+}
+
+// .container {
+//   width: 100%;
+//   min-width: 1440px;
+//   margin: 0 auto;
+//   padding: 0 10px;
+// }
+.bg-header {
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+  border-radius: 0px 0px 40px 40px;
+}
